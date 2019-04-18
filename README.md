@@ -24,7 +24,7 @@ Deberás crear un proyecto a partir de cero en `React`, `Angular`, `React Native
 
 > **¡IMPORTANTE!**
 >
-> Solo se podran usar `TypeScript`, `JavaScript ES5+` o `JSX`
+> Solo se podrán usar `TypeScript`, `JavaScript ES5+` o `JSX`
 >
 
 
@@ -34,4 +34,6 @@ La idea será:
 Puedes acceder a la documentación de la API en el siguiente enlace:
 
 [https://api.got.show/doc/](https://api.got.show/doc/)
+
+
 
