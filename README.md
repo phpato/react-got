@@ -2,9 +2,9 @@
 
 ## Recomendaciones
 * Ver todos los archivos y módulos del proyecto para familiarizarse con las rutas y puntos de edición.
-* Puedes importar cualquier librería que pueda ser de ayuda para tu solución (npm, solamente en el ejercicio #02 de la prueba).
+* Puedes importar cualquier librería que pueda ser de ayuda para tu solución (npm, yarn, bower, etc).
 * Luego de completar un módulo de respuesta, sube tu avance en un commit con el título y/o descripción de lo realizado.
-* No hay restricción de IDE.
+* No hay restricción de IDE o tabulación.
 
 ## Para comenzar
 
