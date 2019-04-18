@@ -22,6 +22,11 @@ Estas pruebas sirven para determinar las capacidades a nivel lógicas en javascr
 ### Capacidades en frontend
 Deberás crear un proyecto a partir de cero en `React`, `Angular`, `React Native`, `Ionic` o `Vue`, con el cual deberás consumir la API pública de Game of Thrones.
 
+> **¡IMPORTANTE!**
+>
+> Solo se podran usar `TypeScript`, `JavaScript ES5+` o `JSX`
+>
+
 
 La idea será:
 * listar todos los personajes de la serie en un tabla o lista, los cuales podrán ser filtrados(buscador) mediante su nombre, casa, sexo y edad, como también se podrá acceder a información más relevante del mismo personaje haciendo click o tap y mostrando información.
