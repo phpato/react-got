@@ -1,5 +1,9 @@
 # Prueba de Experiencia (FullStack)
 Esta prueba fue ideada para medir el nivel de conocimientos tanto en sintaxis como de las distintas API's de `javascript` en las plataformas Web y Servidor.
+> **¡IMPORTANTE!**
+>
+> Esta es una prueba FullStack, por tabnto **NO** es necesario añadir diseño(colores, temas, fuentes, etc)
+
 
 ## Puntos a Valorar
 * Utilización adecuada de `let`, `const`, `var`
@@ -22,6 +26,7 @@ Esta prueba fue ideada para medir el nivel de conocimientos tanto en sintaxis co
 * Nombre de metodos en camelCase
 * Puedes importar cualquier librería que pueda ser de ayuda para tu solución (`moment`, `lodash`, etc).
 * No hay restricción de IDE.
+* No se requiere diseño o estilos.
 
 
 ## Para comenzar
