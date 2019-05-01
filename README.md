@@ -2,14 +2,14 @@
 Esta prueba fue ideada para medir el nivel de conocimientos tanto en sintaxis como de las distintas API's de `javascript` en las plataformas Web y Servidor.
 > **¡IMPORTANTE!**
 >
-> Esta es una prueba FullStack, por tabnto **NO** es necesario añadir diseño(colores, temas, fuentes, etc)
+> Esta es una prueba FullStack, por tanto **NO** es necesario añadir diseño(colores, temas, fuentes, etc)
 
 
 ## Puntos a Valorar
-* Utilización adecuada de `let`, `const`, `var`
-* Implementación de clases
+* Implementación adecuada de `let`, `const`, `var`
+* Implementación de `class`
 * Implementación de `constructor`
-* Implementación de función "Arrow"
+* Implementación de `() =>`
 * Implementación de interpolación de `string`
 * Implementación de concepto `destructuring`
 * Implementación de valores por defecto
@@ -17,6 +17,10 @@ Esta prueba fue ideada para medir el nivel de conocimientos tanto en sintaxis co
 * Implementación de `reduce`, `map`, `filter`, `find`, `findIndex`, `flat`, `flatMap`, `some`.
 * Implementación de `Promise`
 * Implementación de `async` y `await`.
+* Uso correcto de herramienta git
+* Uso correcto de base de datos.
+* Implementación adecuada de `Express`.
+
 
 ## Recomendaciones
 * Utilizar 2 espacios como tabulación.
@@ -25,12 +29,13 @@ Esta prueba fue ideada para medir el nivel de conocimientos tanto en sintaxis co
 * Nombre de clases en UpperCamelCase
 * Nombre de metodos en camelCase
 * Puedes importar cualquier librería que pueda ser de ayuda para tu solución (`moment`, `lodash`, etc).
+* Puedes usar cualquier manejador de paquetes como `npm`, `yarn` o `bower`.
 * No hay restricción de IDE.
 * No se requiere diseño o estilos.
 
 
 ## Para comenzar
-Deberas solicitar acceso al proyecto mediente el siguiente [enlace](https://gitlab.com/olaferlandsen/prueba-seleccion/project_members/request_access), una vez solicitado el acceso, se te concederan 24h para realizar un fork y enviar un pull-request con las soluciones a los problemas planteados.
+Deberas solicitar acceso al proyecto mediente el siguiente [enlace](https://gitlab.com/olaferlandsen/prueba-seleccion/project_members/request_access), una vez solicitado el acceso, se te concederan **24h** para realizar un fork y enviar un pull-request con las soluciones a los problemas planteados.
 ```sh
 git clone https://gitlab.com/olaferlandsen/prueba-seleccion.git
 ```
@@ -41,9 +46,19 @@ git clone https://gitlab.com/olaferlandsen/prueba-seleccion.git
 > **¡IMPORTANTE!**
 >
 > Deberas realizar esta prueba en el directorio `backend/` de este repositorio.
+> En caso de que la API [Game of Thrones Show](https://api.got.show/doc/) no este funcionando, podras usar la API de [An API of Ice and Fire](https://anapioficeandfire.com/)
 
-Se debera implementar una aplicación con `Express`, la cual debera contener un servicio que conecte  extraiga de la API [GoT](https://api.got.show/doc/) los personajes y los almacene en una base de datos (`SQLite`,
-`Cassandra`, `MongoDB`, `MsSQL`, `MySQL`, `MariaDB`, `Postgres` u `Oracle`).
+Se debera implementar una aplicación con `Express`, la cual debera contener un servicio que conecte, extraiga y almacene los personajes desde de la API [Game of Thrones Show](https://api.got.show/doc/), par esto deberas utilizar alguna de las siguinetes bases de dato:
+* `SQLite`
+* `Cassandra`
+* `MongoDB`
+* `SQL Server`
+* `MySQL`
+* `MariaDB`
+* `Postgres`
+* `Oracle`
+* `DynamoDB`
+* `Firebase`
 
 Una vez almacenados los personajes, se deberan implementar dos endpoints para acceso publico:
 
