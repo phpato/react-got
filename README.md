@@ -1,23 +1,24 @@
 # Prueba de Experiencia (FullStack)
-Esta prueba fue ideada para medir el nivel de conocimientos tanto en sintaxis como de las distintas API's de `javascript` en las plataformas Web y Servidor.
+Esta prueba fue ideada para medir el nivel de conocimientos y experiencia tanto en sintaxis como de las distintas API's de `javascript`.
+
 > **¡IMPORTANTE!**
 >
 > Esta es una prueba FullStack, por tanto **NO** es necesario añadir diseño(colores, temas, fuentes, etc)
 
 
 ## Puntos a Valorar
-* Implementación adecuada de `let`, `const`, `var`
-* Implementación de `class`
-* Implementación de `constructor`
-* Implementación de `() =>`
-* Implementación de interpolación de `string`
-* Implementación de concepto `destructuring`
-* Implementación de valores por defecto
+* Implementación adecuada de `let`, `const`, `var`.
+* Implementación de `class`.
+* Implementación de `constructor`.
+* Implementación de `() =>`.
+* Implementación de interpolación de `string`.
+* Implementación de concepto `destructuring`.
+* Implementación de valores por defecto.
 * Implementación de modulos
 * Implementación de `reduce`, `map`, `filter`, `find`, `findIndex`, `flat`, `flatMap`, `some`.
 * Implementación de `Promise`
 * Implementación de `async` y `await`.
-* Uso correcto de herramienta git
+* Uso correcto de herramienta git.
 * Uso correcto de base de datos.
 * Implementación adecuada de `Express`.
 
@@ -29,7 +30,7 @@ Esta prueba fue ideada para medir el nivel de conocimientos tanto en sintaxis co
 * Nombre de clases en UpperCamelCase
 * Nombre de metodos en camelCase
 * Puedes importar cualquier librería que pueda ser de ayuda para tu solución (`moment`, `lodash`, etc).
-* Puedes usar cualquier manejador de paquetes como `npm`, `yarn` o `bower`.
+* Puedes usar cualquier manejador de paquetes como `npm`, `yarn`, `bower`, etc.
 * No hay restricción de IDE.
 * No se requiere diseño o estilos.
 
