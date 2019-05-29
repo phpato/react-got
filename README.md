@@ -14,13 +14,13 @@ Esta prueba fue ideada para medir el nivel de conocimientos y experiencia tanto 
 * Implementación de interpolación de `string`.
 * Implementación de concepto `destructuring`.
 * Implementación de valores por defecto.
-* Implementación de modulos
+* Implementación de modulos**(opcional)**
 * Implementación de `reduce`, `map`, `filter`, `find`, `findIndex`, `flat`, `flatMap`, `some`.
 * Implementación de `Promise`
 * Implementación de `async` y `await`.
-* Uso correcto de herramienta git.
-* Uso correcto de base de datos.
-* Implementación adecuada de `Express`.
+* Uso correcto de herramienta git(commit, flow, ...).
+* Uso correcto de base de datos(consultas, modelos, ...).
+* Implementación adecuada de frameworks en backend.
 
 
 ## Recomendaciones
@@ -93,18 +93,7 @@ git clone https://gitlab.com/olaferlandsen/prueba-seleccion.git
 > Deberas realizar esta prueba en el directorio `backend/` de este repositorio.
 > En caso de que la API [Game of Thrones Show](https://api.got.show/doc/) no este funcionando, podras usar la API de [An API of Ice and Fire](https://anapioficeandfire.com/)
 
-Se debera implementar una aplicación en Backend, la cual debera contener un servicio que conecte, extraiga y almacene los personajes desde de la API [Game of Thrones Show](https://api.got.show/doc/), par esto deberas utilizar alguna de las siguinetes bases de dato:
-* `SQLite`
-* `Cassandra`
-* `MongoDB`
-* `SQL Server`
-* `MySQL`
-* `MariaDB`
-* `Postgres`
-* `Oracle`
-* `DynamoDB`
-* `Firebase`
-
+Se debera implementar una aplicación en Backend, la cual debera contener un servicio que conecte, extraiga y almacene los personajes desde de la API [Game of Thrones Show](https://api.got.show/doc/), par esto deberas utilizar alguna base de datos.
 Una vez almacenados los personajes, se deberan implementar dos endpoints para acceso publico:
 
 | Metodo | Endpoint        | Descripción                                                   |
