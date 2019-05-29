@@ -35,6 +35,50 @@ Esta prueba fue ideada para medir el nivel de conocimientos y experiencia tanto 
 * No se requiere diseño o estilos.
 
 
+## Stack de Herramientas Disponibles
+Podras usar cualquiera de las siguientes herramientas exceptuando lo tachado.
+### Backend
+* [x] Feathers
+* [x] Express
+* [x] Hapi
+* [x] SocketIO
+* [x] HTTP
+* [x] HTTPS
+* [x] LoopBack
+* [x] Nest
+* [x] Serverless
+* [x] Amazon Web Service Lambda
+* [x] Azure Function Apps
+* [x] Google Cloud Function
+### FrontEnd
+* [ ] ~~Angularjs~~
+* [x] Angular<sup>2+</sup>
+* [x] Ionic<sup>2+</sup>
+* [x] Bootstrap<sup>3+</sup>
+* [x] Vue
+* [x] React
+* [x] ReactNative
+* [x] HTML5 + CSS + Javascript
+### Base de Datos
+* [x] SQL Server
+* [x] MySQL/MariaDB
+* [x] MongoDB
+* [x] Postgres
+* [x] Oracle
+* [x] Cassandra
+* [x] PuchDB
+* [x] Firebase
+* [x] SQLite<sup>3+</sup>
+* [x] DynamoDB
+* [x] Couchdb
+* [x] Redis
+* [x] File System(JSON, CSV, ...)
+### Extras
+* [x] JSX
+* [x] TypeScript
+* [x] ES5+
+
+
 ## Para comenzar
 Deberas solicitar acceso al proyecto mediente el siguiente [enlace](https://gitlab.com/olaferlandsen/prueba-seleccion/project_members/request_access), una vez solicitado el acceso, se te concederan **24h** para realizar un fork y enviar un pull-request con las soluciones a los problemas planteados.
 ```sh
@@ -49,7 +93,7 @@ git clone https://gitlab.com/olaferlandsen/prueba-seleccion.git
 > Deberas realizar esta prueba en el directorio `backend/` de este repositorio.
 > En caso de que la API [Game of Thrones Show](https://api.got.show/doc/) no este funcionando, podras usar la API de [An API of Ice and Fire](https://anapioficeandfire.com/)
 
-Se debera implementar una aplicación con `Express`, la cual debera contener un servicio que conecte, extraiga y almacene los personajes desde de la API [Game of Thrones Show](https://api.got.show/doc/), par esto deberas utilizar alguna de las siguinetes bases de dato:
+Se debera implementar una aplicación en Backend, la cual debera contener un servicio que conecte, extraiga y almacene los personajes desde de la API [Game of Thrones Show](https://api.got.show/doc/), par esto deberas utilizar alguna de las siguinetes bases de dato:
 * `SQLite`
 * `Cassandra`
 * `MongoDB`
