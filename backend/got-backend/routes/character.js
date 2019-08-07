@@ -98,7 +98,7 @@ router.get('/character', function (req, res, next) {
 
 })
 
-//api para obtener usuarios con parametros para la paginacion de los usuarios (solo si es administrador)
+//api para obtener usuarios con parametros para la paginacion de los usuarios
 router.get('/character/:id', function (req, res, next) {
 
   let id = req.params.id
@@ -123,4 +123,34 @@ router.get('/character/:id', function (req, res, next) {
     })
 
 })
+
+//api para borrar un personaje fisicamente(borrar el registro, borrado no logico)
+router.delete('/character/:id', function (req, res, next) {
+  let id = req.params.id
+  Character.findByIdAndRemove(id, (err, deletedCharacter) => {
+    //si hay un error, 400 con el error
+    if (err) {
+      return res.status(400).json({
+        ok: false,
+        err
+      })
+    }
+
+    //si el usuario no se encuentra, devolver error
+    if (!deletedCharacter) {
+      return res.status(400).json({
+        ok: false,
+        err: {
+          message: 'Personaje no encontrado'
+        }
+      })
+    }
+    //todo bien
+    res.json({
+      ok: true,
+      deletedCharacter
+    })
+  })
+})
+
 module.exports = router;
