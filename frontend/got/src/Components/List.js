@@ -19,7 +19,7 @@ class List extends React.Component {
 
     listCharacter(){
         this.setState({cargando: true})
-        axios.get('http://localhost:3000/characters/character',{
+        axios.get('https://patricio-got-backend.herokuapp.com/characters/character',{
             mode: 'no-cors'
         })
         .then(response => {

@@ -43,13 +43,13 @@ class TablaPropietario extends React.Component {
         
             if (result.value) {
          
-                axios.delete(`http://localhost:3000/characters/character/${character._id}`)
+                axios.delete(`https://patricio-got-backend.herokuapp.com/characters/character/${character._id}`)
                 .then( (response) => {
                 
                     Swal.fire({
                         position: 'center',
                         type: 'success',
-                        title: 'Propuetario borrado exitosamente!',
+                        title: 'Personaje borrado exitosamente!',
                         showConfirmButton: false,
                         timer: 1500
                     })
@@ -67,13 +67,13 @@ class TablaPropietario extends React.Component {
          
     }
     verPersonaje(character,event){
-        console.log("que apjoooooo: ",character)
+        
         event.preventDefault();
         this.setState({cargando:true})
         let me = this
-        axios.get(`http://localhost:3000/characters/character/${character._id}`)
+        axios.get(`https://patricio-got-backend.herokuapp.com/characters/character/${character._id}`)
         .then(function (response) {
-            //console.log("tiene mascotas: ",response.data.propietarioMascota);
+            
             me.setState({
                 character: response.data.character[0],
                 cargando: false
@@ -112,7 +112,7 @@ class TablaPropietario extends React.Component {
         let { characters } = this.props;
 
         let character = this.state.character
-        //console.log("asddas",character)
+       
         let infoCharacter = []
         infoCharacter.push(
             <div key={character._id}>

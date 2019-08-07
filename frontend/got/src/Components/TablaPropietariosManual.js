@@ -67,14 +67,14 @@ class TablaPropietario extends React.Component {
           })
          
     }
-    verMascotas(character,event){
-        console.log("que apjoooooo: ",character)
+    verPersonaje(character,event){
+        
         event.preventDefault();
         this.setState({cargando:true})
         let me = this
-        axios.get(`http://localhost:3000/characters/character/${character._id}`)
+        axios.get(`https://patricio-got-backend.herokuapp.com/characters/character/${character._id}`)
         .then(function (response) {
-            //console.log("tiene mascotas: ",response.data.propietarioMascota);
+           
             me.setState({
                 character: response.data.character[0],
                 cargando: false
@@ -99,7 +99,7 @@ class TablaPropietario extends React.Component {
             Header: 'Acción',
             Cell: props =>   
             <div>
-                <button onClick = { e =>  this.verMascotas(props.original,e)}  type="button" className="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                <button onClick = { e =>  this.verPersonaje(props.original,e)}  type="button" className="btn btn-success" data-toggle="modal" data-target="#exampleModal">
                     <span className = "fa fa-search-plus"></span>
                 </button> 
                 <button onClick = { e =>  this.eliminarPropietario(props.original,e)}  className="btn btn-danger">
@@ -121,7 +121,7 @@ class TablaPropietario extends React.Component {
                      <td>{elem.slug}</td>
                      <td>{elem.alive? 'Vivo': 'Muerto'}</td>
                      <td>
-                        <button onClick = { e =>  this.verMascotas(elem,e)}  type="button" className="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                        <button onClick = { e =>  this.verPersonaje(elem,e)}  type="button" className="btn btn-success" data-toggle="modal" data-target="#exampleModal">
                             <span className = "fa fa-search-plus"></span>
                         </button>    
                         <button onClick = { e =>  this.eliminarPropietario(elem,e)}  className="btn btn-danger">
