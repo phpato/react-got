@@ -90,7 +90,7 @@ class TablaPropietario extends React.Component {
             Header: 'Name',
             accessor: 'name' // String-based value accessors!
           }, {
-            Header: 'Culture',
+            Header: 'Slug',
             accessor: 'slug',
             Cell: props => <span className='number'>{props.value}</span> // Custom cell components!
           },
